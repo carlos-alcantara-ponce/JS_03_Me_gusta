@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1 id="pagetitle">Network</h1>
+        <h2 id="feedtitle">Your Feed</h2>
+        <div id="columns">
+            <div id="col-izq">
+                <div id="prof-box">
+                    <img id="img_prof" src="./images/profile.PNG" alt="">
+                    <a href="">Add an avatar</a>
+                    <h3>James Doe</h3>
+                </div>
+            </div>
+            <div id="col-der">
+                <div class="feed-box">
+                    <!-- like-box-1 -->
+                    <div class="like-box">
+                        <div class="parte-superior">
+                            <div class="parte-superior-izq">
+                                <h3 class="name">Neil M</h3>
+                            </div>
+                            <div class="parte-superior-der">
+                                <p><span id="num_likes_1">9</span> like(s)</p>
+                                <button class="btn" onclick="faddlike(1)">Like</button>
+                            </div>
+                        </div>
+                        <div class="parte-inferior">
+                            <p>I just set up this new discord bot, let me know what you all think.
+                                <a href="">link</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- like-box-2 -->
+                    <div class="like-box">
+                        <div class="parte-superior">
+                            <div class="parte-superior-izq">
+                                <h3 class="name">Nichole K</h3>
+                            </div>
+                            <div class="parte-superior-der">
+                                <p><span id="num_likes_2">12</span> like(s)</p>
+                                <button class="btn" onclick="faddlike(2)">Like</button>
+                            </div>
+                        </div>
+                        <div class="parte-inferior">
+                            <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                    <!-- like-box-3 -->
+                    <div class="like-box">
+                        <div class="parte-superior">
+                            <div class="parte-superior-izq">
+                                <h3 class="name">Jim R</h3>
+                            </div>
+                            <div class="parte-superior-der">
+                                <p><span id="num_likes_3">9</span> like(s)</p>
+                                <button class="btn" onclick="faddlike(3)">Like</button>
+                            </div>
+                        </div>
+                        <div class="parte-inferior">
+                            <p>I can´t stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
